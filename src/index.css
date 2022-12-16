@@ -1,0 +1,51 @@
+/**
+ * ----------------------------------------
+ * animation shadow-drop-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(86, 221, 255);
+            box-shadow: 0 0 0 0 rgba(86, 221, 255);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 100px 0px rgba(86, 221, 255, 0.35);
+            box-shadow: 0 0 100px 0px rgba(86, 221, 255, 0.35);
+  }
+}
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(86, 221, 255);
+            box-shadow: 0 0 0 0 rgba(86, 221, 255);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 100px 0px rgba(86, 221, 255, 0.35);
+            box-shadow: 0 0 100px 0px rgba(86, 221, 255, 0.35);
+  }
+}
+
+
+
+@import url('http://fonts.cdnfonts.com/css/stange');
+@import url('http://fonts.cdnfonts.com/css/kulim-park');
+                
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+:root {
+  --background-purple: #531C80;
+  --background-pink: #C40E5F;
+  --light-blue: #05C7F2;
+  --light-yellow: #F2E205;
+  --black: #010626;
+
+  --primary-font: 'Stange', sans-serif;
+  --secundary-font: 'Kulim Park', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

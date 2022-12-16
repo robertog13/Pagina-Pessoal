@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--black);
+  padding: 25px;
+  
+}
+
+.header p {
+  color: var(--light-blue);
+  font-family: var(--primary-font);
+}
+
+.header-title {
+  margin-left: 10px;
+  font-size: 135%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: auto 10px;
+  font-family: var(--secundary-font);
+  font-size:90%;
+}
+
+.link {
+  margin: 0 15px;
+  padding: 2.5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link:hover {
+  border-bottom: 2px inset var(--light-blue);
+  
+  
+}
